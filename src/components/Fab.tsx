@@ -1,10 +1,10 @@
 import React from 'react'
-import { TouchableOpacity, View, Text, StyleSheet, TouchableNativeFeedback } from 'react-native';
+import {  View, Text, StyleSheet, TouchableNativeFeedback } from 'react-native';
 
 interface Props  {
-    title: string,
-    position?: 'br' | 'bl',
-    onPress: () => void,
+    title: string;
+    position?: 'br' | 'bl';
+    onPress: () => void;
 }
 // todo: FIX WHY fab right don't animate when its touched
 
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     btnFabLocation:{
         position:'absolute',
         bottom:25,
-        right:25,
+    
         shadowColor: "#000",
 
     },
