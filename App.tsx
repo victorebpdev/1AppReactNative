@@ -5,6 +5,7 @@ import { CounterScreen } from './src/screens/CounterScreen';
 import { DimensionsScreen } from './src/screens/DimensionsScreen';
 import { FlexScreen } from './src/screens/FlexScreen';
 import { Positionscreen } from './src/screens/Positionscreen';
+import { TaskScreen } from './src/screens/TaskScreen';
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
       {/* <BoxObjectModelScreen/> */}
       {/* <DimensionsScreen/> */}
       {/* <Positionscreen/> */}
-      <FlexScreen/>
+      {/* <FlexScreen/> */}
+      <TaskScreen/>
     </SafeAreaView>
     // <HolaMundoScreen />
   )

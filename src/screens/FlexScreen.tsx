@@ -8,6 +8,8 @@ export const FlexScreen = () => {
         <Text style={styles.box2}>BOX 2</Text>
         <Text style={styles.box3}>BOX 3</Text>
 
+        
+
     </View>
   )
 }
@@ -16,15 +18,17 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor:'#28C4D9',
-        // flexDirection: 'row',  // set the direccion of items 
+        //  flexDirection: 'row',  // set the direccion of items 
         alignItems : 'flex-start', // set de dimension about the content that have itself  or text,etc
         //  justifyContent: 'flex-end', // set de location in the father layout but not reverse the items 
+        // flexWrap:'wrap' // order the items when the go beyond the visible limits, As long as the current size of father dispose
     },
     box1:{
         // flex:3,
         borderWidth:2,
         borderColor:'white',
         fontSize:30,
+        position:'absolute'
         // alignSelf:'center',  // set likewise the position in the content father 
     },
     box2:{
